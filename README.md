@@ -6,7 +6,7 @@ Arduino wrapper for HPDL1414, 14-segment displays.
 The library consists of the most basic commands for these displays. They have quite limited character range and don't support custom glyphs.
 
 ### Configuration
-Data pins D0 to D7. 
+Data pins D0 to D6. 
 ```
 const byte dataPins[7] = {/* D0, D1, ..., D6 */};
 ```
